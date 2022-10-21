@@ -1,0 +1,35 @@
+:root {
+  /* fonts */
+  --body: Roboto;
+  --mobile-header: Urbanist;
+
+  /* font sizes */
+  --body-size: 16px;
+  --subheader-size: 26px;
+  --font-size-xl: 28px;
+  --font-size-2xl: 32px;
+  --mobile-header-size: 42px;
+  --font-size-4xl: 56px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gold: #ffe600;
+  --color-gray-100: #0070c0;
+
+  /* Gaps */
+  --gap-xs: 10px;
+  --gap-sm: 20px;
+  --gap-md: 30px;
+  --gap-lg: 40px;
+
+  /* Paddings */
+  --padding-xs: 25px;
+  --padding-sm: 50px;
+  --padding-md: 100px;
+  --padding-lg: 150px;
+  --padding-xl: 200px;
+
+  /* border radiuses */
+  --br-md: 60px;
+}
