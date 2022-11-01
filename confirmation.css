@@ -1,0 +1,382 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.a-member-of-the-aerwave-team-w,
+.thanks-for-connecting-with-us {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  font-weight: 800;
+  display: inline-block;
+}
+.a-member-of-the-aerwave-team-w {
+  font-size: var(--font-size-3xl);
+  line-height: 95%;
+  color: var(--color-black);
+}
+.title-block-div1,
+.title-content-div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title-content-div1 {
+  width: 900px;
+  padding: var(--padding-xl) 0 var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.title-block-div1 {
+  align-self: stretch;
+  z-index: 0;
+}
+.frame-icon1 {
+  position: relative;
+  width: 81px;
+  height: 63px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.aerwave-is-the-next-generation1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+}
+.linkedin-b1 {
+  position: absolute;
+  top: 3px;
+  left: 35px;
+  line-height: 150%;
+  display: inline-block;
+}
+.group-icon4 {
+  position: absolute;
+  height: 100%;
+  width: 30.93%;
+  top: 0;
+  right: 69.07%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-div4 {
+  position: relative;
+  width: 97px;
+  height: 30px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.group-icon5 {
+  position: absolute;
+  height: 100%;
+  width: 27.52%;
+  top: 0;
+  right: 72.48%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-div5 {
+  position: relative;
+  width: 109px;
+  height: 30px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.group-icon6 {
+  position: absolute;
+  height: 100%;
+  width: 34.88%;
+  top: 0;
+  right: 65.12%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-div6 {
+  position: relative;
+  width: 86px;
+  height: 30px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.group-icon7 {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  top: 0;
+  right: 60%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-div7 {
+  position: relative;
+  width: 75px;
+  height: 30px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.frame-div36,
+.frame-div37 {
+  display: flex;
+  align-items: center;
+}
+.frame-div37 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: var(--body-size);
+  color: var(--color-gray-100);
+  font-family: var(--body);
+}
+.frame-div36 {
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.our-services-b1,
+.property-owners-a1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+}
+.property-owners-a1 {
+  text-decoration: none;
+  color: inherit;
+}
+.frame-div39,
+.frame-div40 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-div40 {
+  align-self: stretch;
+  gap: var(--gap-0);
+}
+.frame-div39 {
+  width: 132.67px;
+  flex-shrink: 0;
+}
+.availability-map1 {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+}
+.frame-div41 {
+  width: 132.67px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.frame-div35,
+.frame-div38 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-lg);
+  font-size: var(--body-size);
+  font-family: var(--body);
+}
+.frame-div35 {
+  align-self: stretch;
+  align-items: center;
+  text-align: left;
+  font-size: var(--subheader-size);
+  font-family: var(--subheader);
+}
+.aerwave-inc-2022-all-rights1,
+.line-div1 {
+  align-self: stretch;
+  position: relative;
+  flex-shrink: 0;
+}
+.line-div1 {
+  border-top: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  height: 1px;
+}
+.aerwave-inc-2022-all-rights1 {
+  line-height: 150%;
+  height: 10px;
+}
+.aerwave-inc-2022-all-rights1,
+.frame-div43,
+.privacy-policy-b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.privacy-policy-b {
+  position: relative;
+  line-height: 150%;
+  width: 130px;
+  height: 10px;
+  flex-shrink: 0;
+}
+.frame-div43 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.frame-div34 {
+  align-items: center;
+  gap: var(--gap-sm);
+}
+.footer-block-div1,
+.footer-content-div1,
+.footer-info-div1,
+.frame-div33,
+.frame-div34 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-div33 {
+  align-items: flex-end;
+  gap: var(--gap-2xl);
+}
+.footer-block-div1,
+.footer-content-div1,
+.footer-info-div1 {
+  align-items: center;
+}
+.footer-block-div1,
+.footer-content-div1 {
+  justify-content: center;
+}
+.footer-content-div1 {
+  padding: 0 var(--padding-lg) var(--padding-sm);
+  box-sizing: border-box;
+}
+.footer-block-div1 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), #abc7e5);
+  z-index: 1;
+  font-size: var(--legal-size);
+  font-family: var(--body);
+}
+.svg-elements-01-1-icon1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  width: 418px;
+  height: 421px;
+  flex-shrink: 0;
+  overflow: hidden;
+  z-index: 2;
+}
+.confirmation-div {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--color-gray-200);
+  font-family: var(--subheader);
+}
+@media screen and (max-width: 1000px) {
+  .title-content-div1 {
+    width: 600px;
+  }
+  .aerwave-is-the-next-generation1 {
+    text-align: center;
+  }
+  .frame-div35 {
+    flex-direction: column;
+  }
+  .footer-content-div1 {
+    padding-left: var(--padding-sm);
+    padding-right: var(--padding-sm);
+    box-sizing: border-box;
+  }
+  .svg-elements-01-1-icon1 {
+    width: 334px;
+    height: 334px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .thanks-for-connecting-with-us {
+    font-size: var(--font-size-6xl);
+  }
+  .a-member-of-the-aerwave-team-w {
+    font-size: var(--font-size-2xl);
+  }
+  .title-content-div1 {
+    width: 300px;
+    padding-top: var(--padding-md);
+    padding-bottom: var(--padding-xs);
+    box-sizing: border-box;
+  }
+  .frame-div37 {
+    flex-direction: column;
+    gap: var(--gap-md);
+  }
+  .frame-div38,
+  .frame-div40 {
+    text-align: center;
+  }
+  .frame-div38,
+  .frame-div43 {
+    flex-direction: column;
+  }
+  .footer-content-div1 {
+    padding-left: var(--padding-xs);
+    padding-right: var(--padding-xs);
+    box-sizing: border-box;
+  }
+  .svg-elements-01-1-icon1 {
+    width: 240px;
+    height: 240px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .thanks-for-connecting-with-us {
+    font-size: var(--font-size-4xl);
+  }
+  .a-member-of-the-aerwave-team-w {
+    font-size: var(--font-size-xl);
+  }
+  .title-content-div1 {
+    width: 260px;
+    padding-top: var(--padding-sm);
+    box-sizing: border-box;
+  }
+  .footer-content-div1 {
+    padding-left: var(--padding-2xs);
+    padding-right: var(--padding-2xs);
+    box-sizing: border-box;
+  }
+  .svg-elements-01-1-icon1 {
+    width: 160px;
+    height: 160px;
+  }
+}

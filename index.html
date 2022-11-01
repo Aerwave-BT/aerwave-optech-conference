@@ -19,7 +19,7 @@
     />
   </head>
   <body>
-    <div class="landing-page-div" data-animate-on-scroll>
+    <div class="index-div" data-animate-on-scroll>
       <img
         class="svg-elements-01-1-icon"
         alt=""
@@ -28,7 +28,7 @@
       <div class="title-block-div">
         <div class="title-content-div">
           <div class="thanks-for-playing-aerwaves-s">
-            Thanks for Playing Aerwave's Streaming Search!
+            Thanks For Playing Aerwave's Streaming Search!
           </div>
           <div class="scroll-to-enter-your-informati">
             Scroll to enter your information for a chance to win one of our
@@ -46,7 +46,7 @@
             <b class="see-the-press-release-and-lear"
               >See the press release and learn more about how Aerwave received
               additional funding for future expansion and service!</b
-            ><button class="button-2-dft">
+            ><button class="button-2-dft" id="button2DFT">
               <div class="rectangle-div"></div>
               <b class="button">Learn More</b>
             </button>
@@ -61,82 +61,133 @@
               Simply Follow Aerwave on LinkedIn.
             </div>
           </div>
-          <form class="frame-form" method="post" id="MonthlyDigest">
+          <form
+            class="frame-form"
+            action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+            method="post"
+            id="MonthlyDigest"
+          >
             <div class="field-regular-div">
               <div class="rectangle-div1"></div>
               <input
                 class="field-input"
-                type="text"
-                defaultvalue="name"
-                placeholder="Name"
+                type="hidden"
+                value="00D5f000006Nz3t"
+                placeholder="oid"
+                required
+              />
+            </div>
+            <div class="field-regular-div">
+              <div class="rectangle-div1"></div>
+              <input
+                class="field-input"
+                type="hidden"
+                value="http://optech2022.aerwave.com/confirmation.html"
+                placeholder="retURL"
                 required
               />
             </div>
             <div class="frame-div2">
-              <div class="field-regular-div1">
-                <div class="rectangle-div1"></div>
+              <div class="field-regular-div2">
+                <div class="rectangle-div3"></div>
                 <input
-                  class="field-input1"
+                  class="field-input2"
                   type="text"
-                  defaultvalue="company"
-                  placeholder="Company Name"
+                  value="First Name"
+                  placeholder="First Name"
+                  maxlength="{40}"
                   required
+                  id="first_name"
                 />
               </div>
-              <div class="field-regular-div1">
-                <div class="rectangle-div1"></div>
+              <div class="field-regular-div2">
+                <div class="rectangle-div3"></div>
                 <input
-                  class="field-input1"
+                  class="field-input2"
                   type="text"
-                  defaultvalue="unitquantity"
-                  placeholder="# of Units?"
+                  value="Last Name"
+                  placeholder="Last Name"
+                  maxlength="{80}"
                   required
+                  id="last_name"
                 />
               </div>
             </div>
             <div class="frame-div2">
-              <div class="field-regular-div1">
-                <div class="rectangle-div1"></div>
+              <div class="field-regular-div2">
+                <div class="rectangle-div3"></div>
                 <input
-                  class="field-input1"
+                  class="field-input2"
                   type="text"
-                  defaultvalue="phone"
-                  placeholder="Phone Number"
+                  value="Company"
+                  placeholder="Company Name"
+                  maxlength="{40}"
                   required
+                  id="company"
                 />
               </div>
-              <div class="field-regular-div1">
-                <div class="rectangle-div1"></div>
+              <div class="field-regular-div2">
+                <div class="rectangle-div3"></div>
                 <input
-                  class="field-input1"
+                  class="field-input2"
                   type="text"
-                  defaultvalue="email"
-                  placeholder="Email Address"
+                  value="Units"
+                  placeholder="# of Units?"
+                  maxlength="{40}"
+                  size="20"
+                  required
+                  id="00N5f00000hgSFY"
                 />
               </div>
             </div>
-            <div class="field-regular-div">
-              <div class="rectangle-div1"></div>
+            <div class="frame-div2">
+              <div class="field-regular-div2">
+                <div class="rectangle-div3"></div>
+                <input
+                  class="field-input2"
+                  type="text"
+                  value="Phone"
+                  placeholder="Phone Number"
+                  maxlength="{40}"
+                  required
+                  id="phone"
+                />
+              </div>
+              <div class="field-regular-div2">
+                <div class="rectangle-div3"></div>
+                <input
+                  class="field-input2"
+                  type="text"
+                  value="Email"
+                  placeholder="Email Address"
+                  maxlength="{80}"
+                  id="email"
+                />
+              </div>
+            </div>
+            <div class="field-regular-div8">
+              <div class="rectangle-div3"></div>
               <input
                 class="field-input"
                 type="text"
-                defaultvalue="howdidyouhear"
+                value="How did you Head About Aerwave?"
                 placeholder="How Did You Hear About Aerwave?"
+                id="00N5f00000hgSFd"
               />
             </div>
-            <button class="button-2-dft1" type="submit">
-              <div class="rectangle-div7"></div>
+            <button class="button-2-dft1" type="submit" submit>
+              <div class="rectangle-div10"></div>
               <b class="button1">Let's Partner Up!</b>
             </button>
           </form>
         </div>
       </div>
       <div class="find-me-block">
-        <div class="frame-div4">
+        <div class="frame-div5">
           <div class="search-for-the-aerwave-team-at">
             Search for the Aerwave Team at OPTECH!
           </div>
-          <div class="frame-div5">
+          <div class="frame-div6">
             <div class="alexweycircle-div">
               <img class="ellipse-icon" alt="" src="public/ellipse-1@2x.png" />
               <div class="alex-wey-div">Alex Wey</div>
@@ -146,7 +197,7 @@
               <div class="alex-wey-div">Dan Jensen</div>
             </div>
           </div>
-          <div class="frame-div5">
+          <div class="frame-div6">
             <div class="alexweycircle-div">
               <img class="ellipse-icon" alt="" src="public/ellipse-12@2x.png" />
               <div class="alex-wey-div">Jeff Kok</div>
@@ -160,7 +211,7 @@
               <div class="alex-wey-div">Cassie Khaing</div>
             </div>
           </div>
-          <div class="frame-div5">
+          <div class="frame-div6">
             <div class="alexweycircle-div">
               <img class="ellipse-icon" alt="" src="public/ellipse-15@2x.png" />
               <div class="alex-wey-div">Michael Rankert</div>
@@ -178,10 +229,10 @@
       </div>
       <div class="reimagined-block-div">
         <div class="reimagined-content-div">
-          <div class="frame-div8">
-            <div class="frame-div9">
+          <div class="frame-div9">
+            <div class="frame-div10">
               <img class="icons" alt="" src="public/icons.svg" />
-              <div class="frame-div10">
+              <div class="frame-div11">
                 <b class="happier-residents-b">Happier Residents</b>
                 <div class="wow-your-residents-with-a-fibe">
                   Wow your residents with a fiber-based Internet amenity at half
@@ -189,9 +240,9 @@
                 </div>
               </div>
             </div>
-            <div class="frame-div11">
+            <div class="frame-div12">
               <img class="icons" alt="" src="public/icons1.svg" />
-              <div class="frame-div10">
+              <div class="frame-div11">
                 <b class="happier-residents-b">Backbone for Smart Apartments</b>
                 <div class="wow-your-residents-with-a-fibe">
                   Support smart home and smart building devices with a powerful,
@@ -199,9 +250,9 @@
                 </div>
               </div>
             </div>
-            <div class="frame-div9">
+            <div class="frame-div10">
               <img class="icons" alt="" src="public/icons2.svg" />
-              <div class="frame-div10">
+              <div class="frame-div11">
                 <b class="happier-residents-b">Management Network</b>
                 <div class="wow-your-residents-with-a-fibe">
                   Dedicated management-only networks provided at no additional
@@ -210,10 +261,10 @@
               </div>
             </div>
           </div>
-          <div class="frame-div15">
-            <div class="frame-div11">
+          <div class="frame-div16">
+            <div class="frame-div12">
               <img class="icons" alt="" src="public/icons3.svg" />
-              <div class="frame-div10">
+              <div class="frame-div11">
                 <b class="happier-residents-b"
                   >High-Speed, Private Wi-Fi Across Your Entire Community</b
                 >
@@ -224,9 +275,9 @@
                 </div>
               </div>
             </div>
-            <div class="frame-div9">
+            <div class="frame-div10">
               <img class="icons" alt="" src="public/icons4.svg" />
-              <div class="frame-div10">
+              <div class="frame-div11">
                 <b class="happier-residents-b">Dedicated Fiber Connectivity</b>
                 <div class="wow-your-residents-with-a-fibe">
                   We connect your property to Aerwave’s backhaul network to
@@ -250,7 +301,7 @@
               whole new connectivity experience alongside a team who understands
               property management. Click the link below to visit our full
               website to learn more.</b
-            ><button class="button-2-dft">
+            ><button class="button-2-dft" id="button2DFT2">
               <div class="rectangle-div"></div>
               <b class="button">Let’s Go!</b>
             </button>
@@ -261,18 +312,18 @@
       <div class="footer-block-div">
         <div class="footer-content-div">
           <div class="footer-info-div">
-            <div class="frame-div21">
+            <div class="frame-div22">
               <img class="frame-icon" alt="" src="public/frame.svg" />
-              <div class="frame-div22">
-                <div class="frame-div23">
-                  <div class="frame-div24">
+              <div class="frame-div23">
+                <div class="frame-div24">
+                  <div class="frame-div25">
                     <b class="aerwave-is-the-next-generation"
                       >Aerwave is the next-generation wireless network platform
                       that makes WiFi Internet faster, better, and smarter.
                       Aerwave is leading the evolution of network intelligence
                       for a better-connected experience.
                     </b>
-                    <div class="frame-div25">
+                    <div class="frame-div26">
                       <div class="group-div" id="groupContainer">
                         <b class="linkedin-b">LinkedIn</b
                         ><img
@@ -307,23 +358,46 @@
                       </div>
                     </div>
                   </div>
-                  <div class="frame-div26">
-                    <div class="frame-div27">
-                      <div class="frame-div28">
+                  <div class="frame-div27">
+                    <div class="frame-div28">
+                      <div class="frame-div29">
                         <b class="our-services-b">Our Services</b
-                        ><a class="property-owners-a">Property Owners</a
-                        ><a class="property-owners-a">Digital Foundation</a
-                        ><a class="property-owners-a">Residents</a>
+                        ><a
+                          class="property-owners-a"
+                          href="https://aerwave.com/properties.html"
+                          >Property Owners</a
+                        ><a
+                          class="property-owners-a"
+                          href="https://aerwave.com/digitalfoundation.html"
+                          >Digital Foundation</a
+                        ><a
+                          class="property-owners-a"
+                          href="https://aerwave.com/residential.html"
+                          >Residents</a
+                        >
                       </div>
                     </div>
-                    <div class="frame-div29">
-                      <a class="availability-map">Availability Map</a
-                      ><a class="availability-map">About Us</a
+                    <div class="frame-div30">
+                      <a
+                        class="availability-map"
+                        href="https://aerwave.com/availability-map.html"
+                        >Availability Map</a
+                      ><a
+                        class="about-us"
+                        href="https://aerwave.com/our-team.html"
+                        >About Us</a
                       ><a class="availability-map">Our Team</a>
                     </div>
-                    <div class="frame-div29">
-                      <a class="availability-map">Contact Us</a
-                      ><a class="availability-map">Press</a>
+                    <div class="frame-div30">
+                      <a
+                        class="availability-map"
+                        href="https://aerwave.com/rfp-contact-us.html"
+                        >Contact Us</a
+                      ><a
+                        class="availability-map"
+                        href="https://aerwave.com/press.html"
+                        >Press</a
+                      >
                     </div>
                   </div>
                 </div>
@@ -332,11 +406,24 @@
                   ©Aerwave, Inc., 2022 All rights reserved. Various trademarks
                   held by their respective owners.
                 </div>
-                <div class="frame-div31">
-                  <b class="terms-of-service">Terms Of Service</b
-                  ><b class="terms-of-service">Terms Of Use</b
-                  ><b class="terms-of-service">Privacy Policy</b
-                  ><b class="terms-of-service">Acceptable Use Policy</b>
+                <div class="frame-div32">
+                  <a
+                    class="terms-of-service"
+                    href="https://aerwave.com/terms-of-service.html"
+                    >Terms Of Service</a
+                  ><a
+                    class="terms-of-service"
+                    href="https://aerwave.com/terms-of-use.html"
+                    >Terms Of Use</a
+                  ><a
+                    class="terms-of-service"
+                    href="https://aerwave.com/privacy-policy.html"
+                    >Privacy Policy</a
+                  ><a
+                    class="terms-of-service"
+                    href="https://aerwave.com/acceptable-use-policy.html"
+                    >Acceptable Use Policy</a
+                  >
                 </div>
               </div>
             </div>
@@ -346,6 +433,20 @@
     </div>
 
     <script>
+      var button2DFT = document.getElementById("button2DFT");
+      if (button2DFT) {
+        button2DFT.addEventListener("click", function () {
+          window.open("https://aerwave.com/");
+        });
+      }
+      
+      var button2DFT2 = document.getElementById("button2DFT2");
+      if (button2DFT2) {
+        button2DFT2.addEventListener("click", function () {
+          window.open("https://aerwave.com/");
+        });
+      }
+      
       var groupContainer = document.getElementById("groupContainer");
       if (groupContainer) {
         groupContainer.addEventListener("click", function () {
